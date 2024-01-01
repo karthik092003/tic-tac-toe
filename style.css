@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+}
+#big-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1{
+    border-top: 0;
+}
+.c1{
+    border-left: 0;
+}
+.row3{
+    border-bottom: 0;
+}
+.c3{
+    border-right: 0;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+    font-family: 'Yatra One', cursive;
+}
